@@ -1,0 +1,21 @@
+init:
+	terraform init
+
+fmt:
+	terraform fmt
+
+validate:
+	terraform validate
+
+apply:
+	terraform apply
+
+show:
+	terraform show
+
+destroy:
+	terraform destroy
+
+state:
+	terraform state list
+
