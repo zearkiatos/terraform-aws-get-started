@@ -19,3 +19,6 @@ destroy:
 state:
 	terraform state list
 
+instance:
+	terraform apply -var "instance_name=${ANOTHER_NAME}"
+
