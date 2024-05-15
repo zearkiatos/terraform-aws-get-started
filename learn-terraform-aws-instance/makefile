@@ -22,3 +22,9 @@ state:
 instance:
 	terraform apply -var "instance_name=${ANOTHER_NAME}"
 
+outputs:
+	terraform output
+
+output:
+	terraform output ${OUTPUT_NAME}
+
